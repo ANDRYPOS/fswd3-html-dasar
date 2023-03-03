@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Pendaftaran SIB 2023</title>
+    <link rel="stylesheet" href="../assets/style.css" />
+  </head>
+  <body>
+    <!-- Back to Dashboard start-->
+    <nav>
+      <a href="../index.html"
+        ><img src="../assets/icons/index.png" title="Dashboard-Tugas"
+      /></a>
+    </nav>
+    <!-- Back to Dashboard end-->
+
+    <h1>Form Pendaftaran SIB 2023</h1>
+    <form>
+      <label for="fullname">Nama Lengkap:</label><br />
+      <input
+        type="text"
+        id="fullname"
+        name="fullname"
+        placeholder="Masukkan Nama Lengkap"
+      />
+      <br />
+      <label for="email">Email:</label><br />
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Masukkan Email"
+      /><br />
+      <label for="nohp">No. HP:</label><br />
+      <input
+        type="number"
+        id="nohp"
+        name="nohp"
+        placeholder="Masukkan No.Hp"
+      /><br />
+      Jenis Kelamin
+      <div>
+        <input id="lk" type="radio" name="jenis_kelamin" />
+        <label for="lk">Laki-laki</label>
+      </div>
+      <div>
+        <input id="pr" type="radio" name="jenis_kelamin" />
+        <label for="pr">Perempuan</label>
+      </div>
+      <label for="jurusan">Jurusan</label><br />
+      <select id="jurusan" name="jurusan">
+        <option value="teknik_informatika">Teknik Informatika</option>
+        <option value="sistem_informasi">Sistem Informasi</option>
+        <option value="akuntansi">Akuntansi</option>
+        <option value="manajemen">Manajemen</option>
+        <option value="sastra_inggris">Sastra Inggris</option>
+        <option value="sastra_indonesia">Sastra Indonesia</option>
+      </select>
+      <br />
+      Alamat<br />
+      <textarea name="alamat" rows="10" cols="30">Masukkan Alamat</textarea
+      ><br />
+      Foto<br />
+      <input type="file" id="image" name="image" /><br />
+      <input type="submit" value="Daftar" />
+    </form>
+  </body>
+</html>
