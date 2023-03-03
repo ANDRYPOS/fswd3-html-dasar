@@ -1,0 +1,59 @@
+:root {
+    --Marine-blue: hsl(213, 96%, 18%);
+    --Purplish-blue: hsl(243, 100%, 62%);
+    --Pastel-blue: hsl(228, 100%, 84%);
+    --Light-blue: hsl(206, 94%, 87%);
+    --Strawberry-red: hsl(354, 84%, 57%);
+  
+    --Cool-gray: hsl(231, 11%, 63%);
+    --Light-gray: hsl(229, 24%, 87%);
+    --Magnolia: hsl(217, 100%, 97%);
+    --Alabaster: hsl(231, 100%, 99%);
+    --White: hsl(0, 0%, 100%);
+  }
+  * {
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+    padding: 5px;
+    margin: 10px;
+  }
+  /* .hidden { */
+    /* display: none; */
+  /* } */
+  /* body { */
+    /* background-color: var(--Magnolia); */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* min-height: 100vh; */
+    /* text-align: left; */
+  /* } */
+  /* .container{ */
+    /* border:solid; */
+    /* width: 700px; */
+    /* height: 600px; */
+    /* border-radius: 2rem; */
+    /* align-items: center; */
+    /* background-color: var(--Magnolia); */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
+  /* } */
+  /* .card{ */
+    /* border: solid; */
+    /* align-content: center; */
+    /* align-items: center; */
+    /* gap: 2rem; */
+    /* margin: 15px; */
+    /* width: auto; */
+    /* height: 35rem; */
+    /* background-color: var(--Light-blue); */
+    /* border-radius: 2rem; */
+  /* } */
+  /* table{ */
+    /* margin: 1rem; */
+    /* font-style:oblique; */
+  /* } */
+  /* ol{ */
+    /* margin: 2rem; */
+  /* } */
