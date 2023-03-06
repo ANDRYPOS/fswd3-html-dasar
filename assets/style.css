@@ -57,6 +57,7 @@ section {
 .card1 {
   border: solid white;
   background-color: var(--Magnolia);
+  color: var(--Marine-blue);
   margin: 16px 30px 20px 0;
   padding: 0;
   width: 210px;
@@ -70,6 +71,7 @@ section {
 .card2 {
   border: solid white;
   background-color: var(--Cool-gray);
+  color: --Purplish-blue;
   margin-right: 30px;
   padding: 0;
   width: 210px;
