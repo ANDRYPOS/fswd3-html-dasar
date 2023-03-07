@@ -87,6 +87,7 @@ img {
   width: 100%;
   height: 200px;
   padding: 0;
+  cursor: pointer;
 }
 
 .img-ico {
@@ -94,6 +95,7 @@ img {
   height: 40px;
   position: absolute;
   transform: translateY(-40px);
+  cursor: pointer;
 }
 
 footer {
