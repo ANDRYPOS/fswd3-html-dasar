@@ -22,14 +22,72 @@
 
 body,
 html {
-  background: var(--Magnolia);
   height: 100vh;
-  background-image: url("../assets/images/bg2.jpg");
+  background-image: url("../assets/images/bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+/* style for index start */
+/* nav start */
+.nav-bar {
+  overflow: hidden;
+  background: rgba(249, 222, 12, 0.1);
+  border: solid mediumaquamarine;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  float: left;
+  width: 10rem;
+  border-radius: 10px;
+  margin: 20px 0 0 13rem;
+}
+
+.nav-bar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: left;
+  padding: 7px 16px;
+  text-decoration: none;
+}
+
+.nav-bar a:hover {
+  color: blue;
+  border-radius: 10px;
+}
+
+.nav-content {
+  overflow: hidden;
+  background: rgba(249, 222, 12, 0.1);
+  border: solid mediumaquamarine;
+  display: inline;
+  flex-direction: column;
+  float: left;
+  width: 50rem;
+  height: 521px;
+  border-radius: 10px;
+  margin: 20px 0 0 0;
+}
+
+/* nav end */
+
+/* column start */
+.column {
+  display: flex;
+  width: 100%;
+  padding: 10px 10px 1px 10px;
+  flex-direction: column;
+}
+
+
+/* column end */
+
+/* style for index end */
+
+
+/* style for galeri.html start */
 header {
   text-align: center;
   padding-top: 10px;
@@ -102,3 +160,178 @@ footer {
   position: relative;
   padding-left: 10px;
 }
+
+/* style for galeri.html end */
+
+/* style grid start */
+
+.grid-container {
+  justify-content: center;
+  background-color: pink;
+  margin: 6vh 20px 1px 29em;
+  border-radius: 10px;
+  display: inline-grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: 80px 80px 80px 80px;
+  grid-gap: 5px;
+  padding: 10px;
+  height: 500px;
+}
+
+.grid-container>div {
+  border-radius: 5px;
+  padding: 1px;
+  margin: 1px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border: 2px solid;
+  border-style: groove;
+}
+
+/* grid item1 start */
+.item-1 {
+  background-color: rgba(43, 224, 19, 0.5);
+  grid-column: 1/3;
+  grid-row: 1/3;
+}
+
+.grid-item1 {
+  height: 50px;
+  width: 50px;
+}
+
+/* grid item1 end */
+
+/* grid item2 start */
+.item-2 {
+  background-color: rgba(51, 228, 228, 0.5);
+  grid-column: 3/5;
+  grid-row: 1/2;
+}
+
+.grid-item2 {
+  height: 35px;
+  width: 35px;
+}
+
+/* grid item2 end */
+
+/* grid item3 start */
+.item-3 {
+  background-color: rgba(238, 234, 16, 0.5);
+  grid-column: 3/4;
+  grid-row: 2/4;
+}
+
+.grid-item3 {
+  height: 30px;
+  width: 30px;
+}
+
+/* grid item3 end */
+
+/* grid item4 start */
+.item-4 {
+  background-color: rgba(110, 87, 92, 0.89);
+  grid-column: 4/5;
+  grid-row: 2/3;
+}
+
+.grid-item4 {
+  height: 30px;
+  width: 30px;
+}
+
+/* grid item4 end */
+
+/* grid item5 start */
+.item-5 {
+  background-color: rgba(238, 160, 16, 0.5);
+  grid-column: 1/3;
+  grid-row: 3/5;
+}
+
+.grid-item5 {
+  height: 30px;
+  width: 30px;
+}
+
+/* grid item5 end */
+
+/* grid item6 start */
+.item-6 {
+  background-color: rgba(255, 4, 4, 0.432);
+  grid-column: 3/4;
+  grid-row: 4/5;
+}
+
+.grid-item6 {
+  height: 30px;
+  width: 30px;
+}
+
+/* grid item6 end */
+
+/* grid item7 start */
+.item-7 {
+  background-color: rgba(20, 16, 238, 0.5);
+  grid-column: 4/5;
+  grid-row: 3/5;
+}
+
+.grid-item7 {
+  height: 30px;
+  width: 30px;
+}
+
+/* grid item7 end */
+
+/* grid item8 start */
+.item-8 {
+  background-color: rgba(238, 68, 16, 0.6);
+  grid-column: 1/4;
+  grid-row: 5/6;
+}
+
+.grid-item8 {
+  height: 30px;
+  width: 30px;
+}
+
+/* grid item8 end */
+
+/* grid item9 start */
+.item-9 {
+  background-color: rgba(238, 16, 201, 0.5);
+  grid-column: 4/5;
+  grid-row: 5;
+}
+
+.grid-item9 {
+  height: 30px;
+  width: 30px;
+}
+
+/* grid item9 end */
+/* grid item10 start */
+.item-10 {
+  background-color: rgba(104, 115, 211, 0.5);
+  grid-column: 1/5;
+  grid-row: 6/7;
+}
+
+.grid-item10 {
+  height: 30px;
+  width: 30px;
+}
+
+/* grid item10 end */
+
+/* style grid end */
+
+/* style flex start */
+
+
+/* style flex end */
