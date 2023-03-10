@@ -328,7 +328,6 @@ footer {
 }
 
 /* grid item10 end */
-
 /* style grid end */
 
 
@@ -347,27 +346,27 @@ footer {
 
 .container-global>div {
   align-items: center;
-
 }
 
+/* bagian atas start */
 .container-atas {
   height: 353px;
   width: 380px;
   display: flex;
   gap: 10px;
-  /* border: solid; */
 }
 
+/* bagian atas kiri start */
 .flex-container1 {
   display: flex;
   flex-direction: column;
   height: 353px;
   width: 185px;
-
   gap: 10px;
 }
 
 .flex-item1 {
+  /*github*/
   display: flex;
   justify-content: center;
   border-radius: 5px;
@@ -377,6 +376,7 @@ footer {
 }
 
 .flex-item2 {
+  /*linkedin*/
   display: flex;
   justify-content: center;
   border-radius: 5px;
@@ -385,6 +385,9 @@ footer {
   background-color: rgba(51, 228, 228, 0.5);
 }
 
+/* bagian atas kiri end */
+
+/* bagian atas kanan start */
 .flex-container2 {
   display: flex;
   flex-direction: column;
@@ -393,7 +396,9 @@ footer {
   gap: 10px;
 }
 
+/* kanan atas facebook start */
 .container-kanan-atas {
+  /*facebook*/
   width: 185px;
   border: solid 1px;
   height: 85.75px;
@@ -404,6 +409,9 @@ footer {
   background-color: rgba(238, 234, 16, 0.5);
 }
 
+/* kanan atas facebook end */
+
+/* kanan atas bagian bawah start */
 .container-kanan-bawah {
   display: flex;
   width: 185px;
@@ -421,6 +429,7 @@ footer {
 
 
 .flex-item4 {
+  /*messenger*/
   display: flex;
   justify-content: center;
   border-radius: 5px;
@@ -431,6 +440,7 @@ footer {
 }
 
 .flex-item5 {
+  /*twitter*/
   display: flex;
   justify-content: center;
   border-radius: 5px;
@@ -441,6 +451,7 @@ footer {
 }
 
 .flex-item6 {
+  /*youtube*/
   display: flex;
   justify-content: center;
   border-radius: 5px;
@@ -451,6 +462,7 @@ footer {
 }
 
 .flex-item7 {
+  /*discord*/
   display: flex;
   justify-content: center;
   border-radius: 5px;
@@ -460,6 +472,11 @@ footer {
   background-color: rgba(20, 16, 238, 0.5);
 }
 
+/* kanan atas bagian bawah end */
+/* bagian atas kanan end */
+/* bagian atas end */
+
+/* bagian bawah bagian atas start */
 .container-bawah {
   height: 177px;
   display: flex;
@@ -475,6 +492,7 @@ footer {
 }
 
 .flex-item8 {
+  /*whatsapp*/
   display: flex;
   justify-content: center;
   border-radius: 5px;
@@ -484,6 +502,7 @@ footer {
 }
 
 .flex-item9 {
+  /*mail*/
   display: flex;
   justify-content: center;
   border-radius: 5px;
@@ -492,7 +511,11 @@ footer {
   background-color: rgba(238, 16, 201, 0.5);
 }
 
+/* bagian bawah bagian atas end */
+
+/* bagian exit start */
 .flex-item10 {
+  /*home*/
   display: flex;
   justify-content: center;
   border-radius: 5px;
@@ -502,4 +525,5 @@ footer {
   background-color: rgba(104, 115, 211, 0.5);
 }
 
+/* bagian exit end */
 /* style flex end */
