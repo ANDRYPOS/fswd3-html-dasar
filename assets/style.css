@@ -370,7 +370,8 @@ footer {
   display: flex;
   justify-content: center;
   border-radius: 5px;
-  border: 1px solid;
+  border: 2px solid;
+  border-style: groove;
   height: 171.5px;
   background-color: rgba(43, 224, 19, 0.5);
 }
@@ -380,7 +381,8 @@ footer {
   display: flex;
   justify-content: center;
   border-radius: 5px;
-  border: 1px solid;
+  border: 2px solid;
+  border-style: groove;
   height: 171.5px;
   background-color: rgba(51, 228, 228, 0.5);
 }
@@ -400,7 +402,8 @@ footer {
 .container-kanan-atas {
   /*facebook*/
   width: 185px;
-  border: solid 1px;
+  border: 2px solid;
+  border-style: groove;
   height: 85.75px;
   display: flex;
   justify-content: center;
@@ -433,7 +436,8 @@ footer {
   display: flex;
   justify-content: center;
   border-radius: 5px;
-  border: solid 1px;
+  border: 2px solid;
+  border-style: groove;
   height: 165px;
   width: 87px;
   background-color: rgba(110, 87, 92, 0.89);
@@ -444,7 +448,8 @@ footer {
   display: flex;
   justify-content: center;
   border-radius: 5px;
-  border: solid 1px;
+  border: 2px solid;
+  border-style: groove;
   height: 82px;
   width: 87px;
   background-color: rgba(238, 160, 16, 0.5);
@@ -455,7 +460,8 @@ footer {
   display: flex;
   justify-content: center;
   border-radius: 5px;
-  border: solid 1px;
+  border: 2px solid;
+  border-style: groove;
   height: 82px;
   width: 87px;
   background-color: rgba(255, 4, 4, 0.432);
@@ -466,7 +472,8 @@ footer {
   display: flex;
   justify-content: center;
   border-radius: 5px;
-  border: solid 1px;
+  border: 2px solid;
+  border-style: groove;
   height: 165px;
   width: 87px;
   background-color: rgba(20, 16, 238, 0.5);
@@ -497,7 +504,8 @@ footer {
   justify-content: center;
   border-radius: 5px;
   width: 282px;
-  border: 1px solid;
+  border: 2px solid;
+  border-style: groove;
   background-color: rgba(238, 68, 16, 0.6);
 }
 
@@ -507,7 +515,8 @@ footer {
   justify-content: center;
   border-radius: 5px;
   width: 86px;
-  border: solid 1px;
+  border: 2px solid;
+  border-style: groove;
   background-color: rgba(238, 16, 201, 0.5);
 }
 
@@ -521,7 +530,8 @@ footer {
   border-radius: 5px;
   width: 380px;
   height: 75px;
-  border: solid 1px;
+  border: 2px solid;
+  border-style: groove;
   background-color: rgba(104, 115, 211, 0.5);
 }
 
