@@ -31,26 +31,32 @@ html {
 
 /* style for index start */
 /* nav start */
+.conten-index {
+  display: flex;
+  justify-content: center;
+}
+
 .nav-bar {
   overflow: hidden;
   background: rgba(249, 222, 12, 0.1);
-  border: solid mediumaquamarine;
+  border-style: groove;
   display: flex;
   flex-direction: column;
   align-content: center;
   float: left;
-  width: 10rem;
+  width: 215px;
+  height: 500px;
   border-radius: 10px;
-  margin: 20px 0 0 13rem;
+  text-align: center;
+  margin-top: 20px;
 }
 
-.nav-bar a {
-  float: left;
-  display: block;
-  color: black;
-  text-align: left;
-  padding: 7px 16px;
-  text-decoration: none;
+.nav-top h3 {
+  margin: 10px 10px 10px 10px;
+}
+
+.nav-bar p {
+  padding: 15px;
 }
 
 .nav-bar a:hover {
@@ -59,38 +65,105 @@ html {
 }
 
 .nav-content {
-  overflow: hidden;
-  background: rgba(249, 222, 12, 0.1);
-  border: solid mediumaquamarine;
-  display: inline;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
-  float: left;
-  width: 50rem;
-  height: 521px;
+  background: rgba(249, 222, 12, 0.1);
+  border-style: groove;
+  width: 550px;
+  height: 500px;
   border-radius: 10px;
-  margin: 20px 0 0 0;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.nav-content a {
+  text-decoration: none;
+}
+
+/* task view start */
+.nav-content-header {
+  position: absolute;
+  transform: translateY(-226px);
+}
+
+.nav-task-atas,
+.nav-task-tengah,
+.nav-task-bawah {
+  display: flex;
+  gap: 20px;
+}
+
+/* task view end */
+/* task item start */
+.nav-task1,
+.nav-task2,
+.nav-task3,
+.nav-task4,
+.nav-task5,
+.nav-task6,
+.nav-task7,
+.nav-task8,
+.nav-task9,
+.nav-task10,
+.nav-task11,
+.nav-task12 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: rgba(249, 154, 12, 0.301);
+  align-items: center;
+  text-align: center;
+  height: 78px;
+  width: 98px;
+  cursor: pointer;
+  border-radius: 5px;
+  border-style: groove;
+}
+
+.nav-task1:hover,
+.nav-task2:hover,
+.nav-task3:hover,
+.nav-task4:hover,
+.nav-task5:hover,
+.nav-task6:hover,
+.nav-task7:hover,
+.nav-task8:hover,
+.nav-task9:hover,
+.nav-task10:hover,
+.nav-task11:hover,
+.nav-task12:hover {
+  background-color: rgba(47, 12, 249, 0.521);
+  color: azure;
+}
+
+/* task item end */
+
+
+.img-index {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
 }
 
 /* nav end */
-
-/* column start */
-.column {
-  display: flex;
-  width: 100%;
-  padding: 10px 10px 1px 10px;
-  flex-direction: column;
-}
-
-
-/* column end */
 
 /* style for index end */
 
 
 /* style for galeri.html start */
-header {
+#header-index {
   text-align: center;
+}
+
+.row {
   padding-top: 10px;
+}
+
+#content-index {
+  display: flex;
+  justify-content: center;
 }
 
 .deskripsi {
@@ -168,13 +241,11 @@ footer {
 .grid-container {
   justify-content: center;
   background-color: pink;
-  margin: 6vh 20px 1px 29em;
   border-radius: 10px;
   display: inline-grid;
   grid-template-columns: 100px 100px 100px 100px;
   grid-template-rows: 80px 80px 80px 80px;
   grid-gap: 5px;
-  padding: 10px;
   height: 500px;
 }
 
