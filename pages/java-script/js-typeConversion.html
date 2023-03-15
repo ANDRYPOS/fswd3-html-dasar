@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andri Elistiawan - Java Script Dashboard</title>
+    <link rel="stylesheet" href="../../assets/style.css" />
+    <style>
+      footer {
+        display: flex;
+        justify-content: center;
+        margin: 7px;
+      }
+      .home-index {
+        display: flex;
+        border-style: groove;
+        border-radius: 5px;
+        height: 30px;
+        justify-content: center;
+        align-items: center;
+      }
+      .home-index a {
+        text-decoration: none;
+      }
+      .home-index a:hover {
+        color: white;
+      }
+      .home-index:hover {
+        background-color: rgba(47, 12, 249, 0.521);
+      }
+      .nav-content p {
+        display: flex;
+        width: 500px;
+      }
+      .nav-task-atas,
+      .nav-task-tengah {
+        display: flex;
+        gap: 10px;
+        height: 400px;
+        width: 500px;
+        flex-direction: column;
+        background: rgba(249, 222, 12, 0.1);
+        align-items: center;
+      }
+      .nav-task-bawah {
+        display: flex;
+        border: solid 1px;
+        gap: 10px;
+        height: 50px;
+        width: 500px;
+        flex-direction: column;
+        background: rgba(249, 222, 12, 0.1);
+        align-items: center;
+      }
+      .nav-task-bawah button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        width: 80px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Head Start-->
+    <header id="header-index"></header>
+    <!-- Head End -->
+
+    <!-- content start -->
+    <content id="content-index">
+      <!-- nav menu start -->
+      <nav class="nav-bar">
+        <div class="nav-top">
+          <h3>Java Script Dasar</h3>
+          <img class="img-index" src="../../assets/icons/JavaScript.png" />
+          <h3>Andri Elistiawan</h3>
+          <h4>Full Stack Web Developer 1</h4>
+        </div>
+        <p>
+          "Diciptakan oleh Brandon Eich pada tahun 1995. Merupakan Bahasa
+          Interpreter Merupakan bahasa pemrograman yang digunakan unutk
+          membangun aplikasi web yang lebih dinamis dan interaktif. Biasa
+          digabungkan dengan HTML dan CSS. "
+        </p>
+
+        <div class="home-index">
+          <a href="../java-script/javaScript.html">Home</a>
+        </div>
+      </nav>
+      <div class="nav-content">
+        <div class="nav-content-header">
+          <h3>Type Conversion</h3>
+        </div>
+        <div class="nav-task-atas">
+          <p
+            style="
+              display: flex;
+              flex-direction: column;
+              background-color: aliceblue;
+            "
+          >
+            <b>type conversion String</b>
+            Konversi ke tipe data String biasanya diperlukan saat membututuhkan
+            nilai yang berbentuk String. Sebagai contoh jika kita konversi nilai
+            false maka akan berubah menjadi “false”, null menjadi “null” dan
+            sebagianya.
+            <b>type conversion numerik</b>
+            Sebenarnya jika kita melakukan operasi matematika sebuah nilai akan
+            otomatis berubah menjadi tipe data numeric. Sebagai contoh jika kita
+            melakukan operasi pembagian kepada bilangan non-numeric maka akan
+            dihasilkan tipe data numeric.<br />
+            Kita juga dapat melakukan konversi ke tipe data numeric secara
+            eksplisit. Konversi ini kadang kita perlukan jika ingin membaca
+            sebuah nilai dari sumber yang berupa String tapi menginginkan
+            hasilnya sebuah numeric
+            <b>type converion boolean</b>
+            Konversi Boolean memiliki aturan sebagai berikut: <br />
+            • Nilai 0, String yang kosong, null, undefined, and NaN, menjadi
+            false. <br />
+            • Selain itu menjadi true.
+          </p>
+        </div>
+      </div>
+
+      <!-- nav menu end -->
+    </content>
+    <footer></footer>
+    <script src="../../assets/js/typeConversion.js"></script>
+  </body>
+</html>

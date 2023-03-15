@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andri Elistiawan - Java Script Dashboard</title>
+    <link rel="stylesheet" href="../../assets/style.css" />
+    <style>
+      footer {
+        display: flex;
+        justify-content: center;
+        margin: 7px;
+      }
+      .home-index {
+        display: flex;
+        border-style: groove;
+        border-radius: 5px;
+        height: 30px;
+        justify-content: center;
+        align-items: center;
+      }
+      .home-index a {
+        text-decoration: none;
+      }
+      .home-index a:hover {
+        color: white;
+      }
+      .home-index:hover {
+        background-color: rgba(47, 12, 249, 0.521);
+      }
+      .nav-content p {
+        display: flex;
+        width: 500px;
+      }
+      .nav-task-atas,
+      .nav-task-tengah {
+        display: flex;
+        gap: 10px;
+        height: 400px;
+        width: 500px;
+        flex-direction: column;
+        background: rgba(249, 222, 12, 0.1);
+        align-items: center;
+      }
+      .nav-task-bawah {
+        display: flex;
+        border: solid 1px;
+        gap: 10px;
+        height: 50px;
+        width: 500px;
+        flex-direction: column;
+        background: rgba(249, 222, 12, 0.1);
+        align-items: center;
+      }
+      .nav-task-bawah button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        width: 80px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Head Start-->
+    <header id="header-index"></header>
+    <!-- Head End -->
+
+    <!-- content start -->
+    <content id="content-index">
+      <!-- nav menu start -->
+      <nav class="nav-bar">
+        <div class="nav-top">
+          <h3>Java Script Dasar</h3>
+          <img class="img-index" src="../../assets/icons/JavaScript.png" />
+          <h3>Andri Elistiawan</h3>
+          <h4>Full Stack Web Developer 1</h4>
+        </div>
+        <p>
+          "Diciptakan oleh Brandon Eich pada tahun 1995. Merupakan Bahasa
+          Interpreter Merupakan bahasa pemrograman yang digunakan unutk
+          membangun aplikasi web yang lebih dinamis dan interaktif. Biasa
+          digabungkan dengan HTML dan CSS. "
+        </p>
+
+        <div class="home-index">
+          <a href="../java-script/javaScript.html">Home</a>
+        </div>
+      </nav>
+      <div class="nav-content">
+        <div class="nav-content-header">
+          <h3>Operator</h3>
+        </div>
+        <div class="nav-task-atas">
+          <p>
+            Terdapat dua istilah yang perlu dipahami: <br />• Operator adalah
+            simbol yang digunakan unutk melakukan operasi pada sebuah operand.
+            <br />• Operand sendiri adalah sebuah nilai atau variabel yang
+            dilakukan operasi oleh operator
+          </p>
+          <p
+            style="
+              display: flex;
+              flex-direction: column;
+              background-color: aliceblue;
+            "
+          >
+            <b>Aritmatich Operator</b>
+            Operator aritmatika adalah operator yang dapat digunakan unutk
+            melakukan operasi aritmatika seperti penjumlahan, pembagian,
+            perkalian dan sebagainya. Operator aritmatika terdiri dari:
+            Penjumlahan (+) Pengurangan (-) Perkalian (*) Pemangkatan (**)
+            Pembagian (/) Sisa Bagi (%)
+            <b>Assignment Operator</b>
+            Operator penugasan dapat digunakan untuk memberikan tugas kepada
+            sebuah variabel. Umumnya digunakan unutk mengisi nilai sebuah
+            variabel. Berikut operator penugasan yang terdapat pada javascript:
+            Pengisian Nilai (=) Pengisian dan Penambahan (+=) Pengisian dan
+            Pengurangan (-=) Pengisian dan Perkalian (*=) Pengisian dan
+            Pemangkatan (**=) Pengisian dan Pembagian (/=) Pengisian dan Sisa
+            bagi (%=)
+            <b>Comparisson Operator</b>
+            Operator Relasi/ Perbandingan dapat digunakan unutk membandingkan
+            dua nilai. Operator perbandingan akan menghasilkan salah satu dari
+            nilai true atau false. Operator ini terdiri dari: Lebih Besar (&gt;)
+            Lebih Kecil (&lt;) Sama Dengan (==) atau (===) Tidak Sama dengan
+            (!=) atau (!==) Lebih Besar Sama dengan (&gt;=) Lebih Kecil Sama
+            dengan (&lt;=)
+          </p>
+        </div>
+      </div>
+
+      <!-- nav menu end -->
+    </content>
+    <footer></footer>
+    <script src="../../assets/js/operators.js"></script>
+  </body>
+</html>
